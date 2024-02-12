@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 750px;
+}
+
+.header > img {
+    width: 100%;
+    height: 750px;
+}
+
+.title-text {
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    color:#4c4f25;
+    font-size: 5rem;
+    margin:0;
+    letter-spacing: 5px;
+}
+
+.name {
+    font-family: 'DM Serif Display', serif;
+    text-transform: uppercase;
+}
+
+.short-description {
+ color:#4c4f25;
+ font-family: 'Noto Serif', serif;
+ letter-spacing: 0.5rem;
+}
+
+.contact{
+    text-transform: uppercase;
+    color:#4c4f25;
+    font-family: 'Source Serif 4', serif;
+}
+
+.facts-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+} 
+
+ .facts > h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color:#3B5060;
+    text-decoration: overline #C19784 ;
+    padding-top: 30px;
+}
+
+.profile-photo {
+    width: 400px;
+    height: 300px;
+    border-radius: 40%;
+}
+
+.facts > p{
+    color: #3B5060;
+    font-size: 1.5em
+}
+
+.language {
+    font-size: 1em;
+    font-weight:bold;
+    color: #A6703E;
+}
+
+.skills-container {
+    padding-top: 4rem;
+}
+.skills-container > h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color:#3B5060;
+    text-decoration: overline #C19784;
+}
+
+.tech-logos{
+   text-align: center;
+}
+
+.row {
+    padding-top: 50px;
+}
+ 
+h3 {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    color:#4C4F25;
+}
+
+.img-thumbnail {
+    height: 150px;
+    width: 300px
+}
+
+.contacts-container{
+    padding-top: 4rem;
+}
+.contacts-container > h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color:#3B5060;
+    text-decoration: overline #C19784 ;
+    text-align: center;
+}
